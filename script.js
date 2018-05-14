@@ -19,7 +19,7 @@ function rantaPaRantaExt() {
   var a = prompt("Your accounts start value");
   var b = prompt("Expected interest return per period in %");
   var c = prompt("Years to save money");
-  var d = prompt("Period - usually 12 months");
+  var d = prompt("Period - usually 12 months (how often will your interest be in to count per year? Daily = 365, Monthly = 12, Yearly = 1 )");
   var e = prompt("Monthly savings in sek");
 
   var startValue = Number(a);
